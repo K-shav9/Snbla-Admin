@@ -7,8 +7,7 @@ interface BusinessAddressAutocompleteProps {
   onBusinessAddressSelect: (address: string) => void;
 }
 const GOOGLE_API_KEY =
-  process.env.REACT_APP_GOOGLE_ADDRESS_KEY ??
-  "AIzaSyAeGBMdC1x5sIZOgWO71ZFo8BxFsiErTWc";
+  process.env.REACT_APP_GOOGLE_ADDRESS_KEY;
 
 const BusinessAddressAutocomplete: React.FC<BusinessAddressAutocompleteProps> = ({
   value = "",
