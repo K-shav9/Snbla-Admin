@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,  // Keep this setting to skip type checking of library files
+    "skipDefaultLibCheck": true,  // Add this line to skip type checking for default libraries
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "types": ["node", "google.maps", "@ffmpeg/ffmpeg"]
+  },
+  "include": ["craco.config.ts", "src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"],
+}

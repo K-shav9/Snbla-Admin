@@ -1,0 +1,46 @@
+:where(.css-dev-only-do-not-override-161f05s).ant-modal .ant-modal-content {
+    background: none !important;  /* Removes background color */
+    box-shadow: none !important;  /* Removes shadow */
+    border: none !important;      /* Removes border */
+    padding: 0 !important;        /* Adjust padding if needed */
+    scrollbar-width: thin !important; /* For Firefox */
+    scrollbar-color: rgba(0, 0, 0, 0.2) transparent !important; /* Adjust scrollbar color */
+}
+
+:where(.ant-modal) .ant-modal-header {
+    display: none !important; /* Hides the default modal header */
+}
+
+:where(.ant-modal) .ant-modal-footer {
+    display: none !important; /* Hides the default modal footer */
+}
+
+/* WebKit (Chrome, Edge, Safari) */
+.modalWrapper .ant-modal-wrap::-webkit-scrollbar {
+    width: 1px !important;
+}
+
+.modalWrapper .ant-modal-wrap::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.3) !important; /* Customize scrollbar thumb color */
+    border-radius: 10px;
+}
+
+.modalWrapper .ant-modal-wrap::-webkit-scrollbar-track {
+    background: transparent !important; /* Transparent track */
+}
+
+.plugin-body .goal-card.active {
+    border-color: #4a55ef;
+}
+
+.ant-spin-fullscreen {
+  background-color: white !important; /* Change background to white */
+}
+
+.ant-spin-dot {
+  color: grey !important; /* Change spinner color */
+}
+
+.ant-spin-dot i {
+  background-color: grey !important; /* Change spinner dots to grey */
+}

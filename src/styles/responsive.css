@@ -1,0 +1,175 @@
+@media screen and (min-width: 1600px){
+    .sidebanner {
+        width: 100%;
+        flex-wrap: wrap;}
+       .mainLogsContined{
+        max-width: 100%;
+        max-width: 100%;
+        width: 100%;
+       }
+       .whitelogos{
+        margin: auto;
+       }
+    
+}
+
+@media screen and (max-width:991px) {
+   
+    .mobilenavigation{
+        display: block;
+    }
+
+    .mainBody{
+        width: 100%;
+        max-width: 100%;
+        margin: 0px;
+    }
+    .dashboardCards:last-child{
+        margin-bottom: 32px;
+    }
+    .sidebanner{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .sidebarOpen{
+        overflow: hidden;
+    }
+    .sidebarOpen .sidebar{
+        display: block ;
+        z-index: 9999;
+        /* width: 80% !important; */
+    }
+        .user-info .ant-avatar-image img {
+            border: 1px solid #e8e8e8;
+            border-radius: 50%;
+        }
+                .ant-table-wrapper .ant-table-thead>tr>th,
+                .ant-table-wrapper .ant-table-thead>tr>td {
+                    white-space: nowrap;
+                }
+    .sidebarOpen .mainBody::after {
+        content: ""; 
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(120deg, #000000, #000000);
+        opacity: .7;
+    }
+    .footerbusinessLanding {
+        background-color: var(--primary);
+        color: var(--white);
+        padding: 16px 10px;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        position: fixed;
+        width: -webkit-fill-available;
+        width: 100%;
+        bottom: 0;
+    }
+    .desktop-view {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width:721px) {
+    .authforms{
+        padding: 15px;
+    }
+    .paymentSection .planInfos .planinfoList ol li{
+        padding-left: 4px;
+    }
+    .paymentSection .planDetails{
+        flex-wrap: wrap;
+    }
+    .paymentSection .planDetails .viewdeatils{
+        width: 100%;
+        text-align: right;
+    }
+    .pagetitles {
+        font-size: 14px;
+        width: 160px; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
+        white-space: nowrap;
+
+    }
+    .dashboardCards{
+        margin-top: 12px;
+        padding: 12px;
+        height: 212px;
+    }
+    .dashboardCards span {
+        font-size: 16px;
+    }
+    .dashboardCards:last-child {
+        margin-bottom: 12px;
+    }
+    .dashboardCards .navigationIcons{
+        padding: 12px auto;
+    }
+    .bodycard{
+        padding: 12px 10px;
+        margin-top: 16px;
+    }
+    .contentBody{
+        padding: 0 16px;
+    }
+    .mainHeader{
+        padding: 12px 16px;
+    }
+    .desktopView{
+        display: none;
+    }
+    .mobileView{
+        display: block;
+    }
+    .mainHeader{
+        /* display: none; */
+        /* display: flex !important; */
+        margin-bottom: 10px;
+    }
+    .buttonsvgs{
+        margin-right: 8px;
+        display: flex !important;
+    }
+    .uploadprofileimg.bannerImgs button.upload-button,.uploadprofileimg .profile-pic-container img{
+        height:80px ;
+    }
+    .uploadprofileimg .profile-pic-container img{
+        width: 100%;
+    }
+    .uploadprofileimg.bannerImgs{
+        margin-bottom: 0px;
+    }
+    .breadcrumb{
+        padding: 5px 25px;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .showLogo{
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .business-logo {
+        height: 70px;
+        width: 100%;
+        border-radius: 8px;
+    }
+    .help-modal {
+        height: 70vh;
+        padding-top: 20px; 
+        width: 100% !important;
+   }
+}

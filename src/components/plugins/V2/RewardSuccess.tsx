@@ -1,0 +1,86 @@
+import { Button } from 'antd';
+import React, { useEffect } from 'react'
+import { useSelector } from 'react-redux';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+
+
+const RewardSuccess = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const payData = useSelector((state: any) => state?.Payment?.payData);
+  const merchantData = useSelector((state: any) => state?.Merchant?.merchantPlan);
+
+  // const user = useSelector((state: any) => state?.Auth?.user?.data);
+
+
+  const earnings: any = payData?.amounts?.baseEarnings
+  const appLinkUrl = localStorage?.getItem("app-link")
+
+  const decodedUrl = decodeURIComponent(appLinkUrl); // Decode it
+  const appLink = `intent://open#Intent;scheme=myapp;package=${decodedUrl};end`;
+
+
+
+  // const merchantData = localStorage.getItem('merchantPlan');
+  // const earnings: any = JSON.parse(localStorage.getItem('baseEarnings'))
+  // const merchantPlan = merchantData && JSON.parse(merchantData)
+
+  const handleContinue = () => {
+    // navigate("#reward-success", { state: { merchantPlan } });
+    navigate("#reward-success");
+
+  }
+  const merchant = merchantData
+
+  return (
+    <>
+      <div className="plugin-body">
+        <div className="processing">
+          <svg width={72} height={72} viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 12.0054C0 5.37796 5.37258 0.00537109 12 0.00537109H60C66.6274 0.00537109 72 5.37795 72 12.0054V60.0054C72 66.6328 66.6274 72.0054 60 72.0054H12C5.37258 72.0054 0 66.6328 0 60.0054V12.0054Z" fill="#D1FAE5" />
+            <path d="M51.9981 25.0059H47.6381C47.858 24.3859 47.9981 23.7059 47.9981 23.0059C47.9981 19.6859 45.3181 17.0059 41.9981 17.0059C39.8981 17.0059 38.078 18.0859 36.998 19.7059L35.998 21.0459L34.998 19.6859C33.918 18.0859 32.098 17.0059 29.998 17.0059C26.678 17.0059 23.998 19.6859 23.998 23.0059C23.998 23.7059 24.138 24.3859 24.358 25.0059H19.998C17.778 25.0059 16.018 26.7859 16.018 29.0059L15.998 51.0059C15.998 53.2259 17.778 55.0059 19.998 55.0059H51.9981C54.2181 55.0059 55.9981 53.2259 55.9981 51.0059V29.0059C55.9981 26.7859 54.2181 25.0059 51.9981 25.0059ZM41.9981 21.0059C43.0981 21.0059 43.9981 21.9059 43.9981 23.0059C43.9981 24.1059 43.0981 25.0059 41.9981 25.0059C40.8981 25.0059 39.9981 24.1059 39.9981 23.0059C39.9981 21.9059 40.8981 21.0059 41.9981 21.0059ZM29.998 21.0059C31.098 21.0059 31.998 21.9059 31.998 23.0059C31.998 24.1059 31.098 25.0059 29.998 25.0059C28.898 25.0059 27.998 24.1059 27.998 23.0059C27.998 21.9059 28.898 21.0059 29.998 21.0059ZM51.9981 51.0059H19.998V47.0059H51.9981V51.0059ZM51.9981 41.0059H19.998V29.0059H30.158L25.998 34.6659L29.238 37.0059L35.998 27.8059L42.7581 37.0059L45.9981 34.6659L41.8381 29.0059H51.9981V41.0059Z" fill="#1F242E" />
+          </svg>
+          <div className="reward-info">
+            {merchant?.scheduleValues ?
+              <h2>For setting recurring deposits on <span>{payData?.scheduleValues?.formattedDate}</span> you’ll get</h2>
+              :
+              <h2>For setting recurring deposits <span></span> you’ll get</h2>
+            }
+
+            {/* <h4>7% rewards</h4> */}
+            <h4>{payData?.pack?.saveOnEveryDepo ?? earnings}% rewards</h4>
+
+          </div>
+        </div>
+
+        {appLinkUrl ? (
+
+          <a href={appLink}
+            className="submitbtn"
+          >
+            {console.log("123", appLink)}
+
+
+            {merchant?.merchant?.businessName} Wallet
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M8.08711 5.00537L6.91211 6.18037L10.7288 10.0054L6.91211 13.8304L8.08711 15.0054L13.0871 10.0054L8.08711 5.00537Z" fill="white" />
+            </svg>
+          </a>
+        ) : (
+
+          <Link to="/dashboard/wallets" state={{ merchant }} className="submitbtn" id="openPopupButton">
+            {console.log("456")}
+            {merchant?.merchant?.businessName} Wallet <svg xmlns="http://www.w3.org/2000/svg" width={20} height={20} viewBox="0 0 20 20" fill="none">
+              <path d="M8.08711 5.00537L6.91211 6.18037L10.7288 10.0054L6.91211 13.8304L8.08711 15.0054L13.0871 10.0054L8.08711 5.00537Z" fill="white" />
+            </svg></Link>
+        )}
+      </div>
+      {/* <a href="intent://open#Intent;scheme=myapp;package=www.facebook.com;end;">Open My App</a> */}
+    </>
+
+  )
+}
+
+export default RewardSuccess
+

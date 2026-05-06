@@ -1,0 +1,310 @@
+{
+  "GREETING": "Hello",
+  "WELCOME": "Welcome to our site",
+  "READ_MORE": "Read more",
+  "WEB_HEADER": {
+    "ABOUT_US": "About Us",
+    "PLATFORM": "Platform",
+    "RESOURCES": "Resources",
+    "OUR_PARTNERS": "Our Partners",
+    "SIGN_IN": "Sign in",
+    "DASHBOARD": "Dashboard",
+    "CONTACT_SALES": "Contact Sales",
+    "YOUR_COMPANY": "Your Company",
+    "CLOSE_MENU": "Close menu"
+  },
+  "HOME_PAGE": {
+    "TITLE": "Save Today, Own Tomorrow — Your Future Starts Here",
+    "DESCRIPTION": "Manage your savings with exclusive discounts and cash-backs from top brands on every deposit. It’s free, flexible, and no hidden fees.",
+    "PARTNER_SIGNED": "Partnership signed with Eliago",
+    "NEW": "New",
+    "SLOGANS": {
+      "SAVE_SMART": "Save Smart, Earn More",
+      "YOUR_MONEY": "Your Money, Your Rules",
+      "DESCRIPTION": "Simple, rewarding, and flexible—saving has never been easier."
+    },
+    "CARDS": {
+      "DISCOUNTS": {
+        "TITLE": "Discounts & Cash-backs",
+        "DESCRIPTION": "Save smarter by earning exclusive rewards and cash-backs from top brands as you build towards your financial goals."
+      },
+      "ZERO_COST": {
+        "TITLE": "Zero Cost, Total Control",
+        "DESCRIPTION": "Enjoy total control over your savings with no hidden fees or extra charges—what you save is entirely yours to manage."
+      },
+      "WITH_DRAW": {
+        "TITLE": "Withdraw Anytime",
+        "DESCRIPTION": "Your savings are always available whenever you need them. Withdraw without penalties or restrictions, anytime."
+      },
+      "MORE_INFO": "More information"
+    },
+    "HOW_IT_WORKS": {
+      "TITLE": "How it works",
+      "HEADING": "Create Your Account",
+      "DESCRIPTION": "Getting started is simple. Sign up in just a few clicks, and you're ready to begin your savings journey. No hidden fees, no complicated forms—just you and your goals."
+    },
+    "FUND_YOUR_WALLET": {
+      "TITLE": "Fund Your Wallet, Earn Rewards",
+      "DESCRIPTION": "Top up your wallet with recurring, one-time deposits, or round-ups from your linked card. Whether it's 5 or 500 riyals, you're in control—adjust, pause, or speed up anytime."
+    },
+    "SAVE_TOGETHER": {
+      "TITLE": "Save Together, Reach Goals Faster",
+      "DESCRIPTION": "Let your friends and family pitch in to your brand wallet. They can help you get closer to that big purchase or provide a little boost when you need it most."
+    },
+    "TIME_TO_GRAB": {
+      "TITLE": "Time to Grab What’s Yours",
+      "DESCRIPTION": "Once you reach your savings goal, make your purchase just like using a debit card—no debt, no hassle. You own it outright, and all the credit goes to you!"
+    },
+    "BOOST_YOUR_WALLET": {
+      "TITLE": "Boost Your Wallet with Brand Rewards",
+      "DESCRIPTION": "Save with the brands you love and watch your cash rewards grow as you get closer to achieving your goals—completely hassle-free!"
+    },
+    "YOUR_SAVINGS": {
+      "TITLE": "Your Savings Count",
+      "HEADING": "Unlock Your Path to Smart Savings",
+      "DESCRIPTION": "Take control of your future! Save smarter with help from brands you love, making your money work harder.",
+      "RATE": "Higher Achievement Rate",
+      "SECURITY": "Greater Financial Security"
+    },
+    "TOP_UP": {
+      "TITLE": "Top-up Options",
+      "HEADING": "Save at Your Own Pace, Your Own Way",
+      "DESCRIPTION": "We’ve made saving simple by giving you multiple ways to fund your wallet, so you can pick what works best for you."
+    },
+    "RECURRING_DEPOSITS": {
+      "TITLE": "Recurring Deposits",
+      "DESCRIPTION": "Set it and forget it! Schedule automatic deposits on a weekly, bi-weekly, or monthly basis. Your savings grow effortlessly while you focus on other things."
+    },
+    "ONE_TIME_DEPOSITS": {
+      "TITLE": "One-time Deposits",
+      "DESCRIPTION": "Add money whenever it suits you, giving you complete flexibility to save at your own pace."
+    },
+    "ROUND_UP_DEPOSITS": {
+      "TITLE": "Round-ups Deposits",
+      "DESCRIPTION": "Automatically round up your everyday purchases to the nearest riyal and save the difference."
+    },
+    "CROWD_SAVINGS_DEPOSITS": {
+      "TITLE": "Crowd Savings Deposits",
+      "DESCRIPTION": "Let friends and family contribute directly to your wallet, helping you reach your savings goals faster."
+    },
+    "UPDATES": {
+      "TITLE": "Don't miss out on any updates",
+      "DESCRIPTION": "Stay updated on the latest news, exclusive offers, and exciting updates.",
+      "SEE_OUR": "See our",
+      "PRIVACY_POLICY": "Privacy Policy",
+      "SEE_YOUR_PRIVACY": "for data collection details.",
+      "GET_ACCESS": "Get Access"
+    }
+  },
+  "ABOUT_US": {
+    "TITLE": "Savings Made Simple and Rewarding",
+    "DESCRIPTION": "We help you save for high-ticket purchases with ease. Our brand wallets offer a smarter way to reach your big goals, unlocking exclusive rewards as you save.",
+    "WHO_ARE_WE": {
+      "TITLE": "Who We Are",
+      "DESCRIPTION": "Snbla is a savings-focused fintech company committed to helping people in Saudi Arabia save smarter. We believe that reaching big goals shouldn’t require debt or credit.",
+      "DESCRIPTION-2": "We partner with top brands to create a dedicated space where customers can save and unlock rewards—combining savings, special offers, and exclusive deals in one easy-to-use platform."
+    },
+    "OUR_MISSION": {
+      "TITLE": "Our Mission",
+      "DESCRIPTION": "We’re transforming the way people save for life’s big purchases. By connecting customers with brands, we’re creating a smarter way to reach financial goals—one savings deposit at a time. Together, we’re making high-ticket items more accessible, rewarding, and within reach."
+    }
+  },
+  "PLATFORM": {
+    "TITLE": "Customer Loyalty, Redefined with Smarter Savings",
+    "DESCRIPTION": "Snbla Wallet gives your customers more than just rewards—it empowers them to save for their next big purchase, with your brand supporting them at every step",
+    "Boost_Sales,Engage_Customers": {
+      "TITLE": "Boost Sales, Engage Customers",
+      "HEADING": "A Powerful Wallet to Boost Customer Spending",
+      "DESCRIPTION": "Snbla Wallet helps you maximize customer value and engagement.",
+      "MORE_POINTS": [
+        "Drive higher average order value and repeat purchases",
+        "Capture and engage the Gen Z market with tailored experiences",
+        "Reduce your payment processing costs while increasing profitability"
+      ]
+    },
+    "BOOST_SALES_AND_CUSTOMER_ENGAGEMENT ": {
+      "TITLE": "Boost Sales and Customer Engagement",
+      "DESCRIPTION": "Snbla Wallet helps drive higher customer spending, frequent purchases, and taps into new customer segments like Gen Z."
+    },
+    "CARDS": [
+      {
+        "TITLE": "Increase AOV by Up to 55%",
+        "DESCRIPTION": "Customers who save ahead of time spend significantly more on each purchase."
+      },
+      {
+        "TITLE": "Increase AOV by Up to 55%",
+        "DESCRIPTION": "Customers who save ahead of time spend significantly more on each purchase."
+      },
+      {
+        "TITLE": "Increase AOV by Up to 55%",
+        "DESCRIPTION": "Customers who save ahead of time spend significantly more on each purchase."
+      }
+    ],
+    "UNLOCK_EXCLUSIVE_SAVINGS": {
+      "TITLE": "Unlock Exclusive Savings for Your Customers",
+      "DESCRIPTION": "With every deposit, customers grow a dedicated balance to spend at your store, making it easier for them to save and shop with you—again and again."
+    },
+    "SEAMLESS_INTEGRATION": {
+      "TITLE": "Seamless Integration, Ready When You Are",
+      "DESCRIPTION": "Snbla provides flexible, easy-to-deploy solutions, from low-code tools to full API integrations, making it simple to connect and start offering savings to your customers."
+    },
+    "FLEXIBLE_WAYS_TO_FUND": {
+      "TITLE": "Flexible Ways to Fund",
+      "HEADING": "We’ve made it easy for your customers to add funds to their Snbla wallet, offering options that fit their lifestyle.",
+      "POINTS": {
+        "RECURRING_DEPOSITS": {
+          "TITLE": "Recurring Deposits",
+          "DESCRIPTION": "Set it and forget it! Schedule automatic deposits on a weekly, bi-weekly, or monthly basis. Your savings grow effortlessly while you focus on other things."
+        },
+        "ONE_TIME_DEPOSITS": {
+          "TITLE": "One-time Deposits",
+          "DESCRIPTION": "Add money whenever it suits you, giving you complete flexibility to save at your own pace."
+        },
+        "ROUND_UP_DEPOSITS": {
+          "TITLE": "Round-ups Deposits",
+          "DESCRIPTION": "Automatically round up your everyday purchases to the nearest riyal and save the difference."
+        },
+        "CROWD_SAVINGS_DEPOSITS": {
+          "TITLE": "Crowd Savings Deposits",
+          "DESCRIPTION": "Let friends and family contribute directly to your wallet, helping you reach your savings goals faster."
+        }
+      }
+    },
+    "INCENTIVIZE_CUSTOMERS": {
+      "TITLE": "Incentivize Customers to Save",
+      "DESCRIPTION": "Boost loyalty and encourage spending by offering rewards for every deposit customers make toward their goals. These rewards grow with each contribution and can be redeemed exclusively at checkout, making saving even more rewarding."
+    }
+  },
+  "RESOURCES": {
+    "TITLE": "Resources",
+    "DESCRIPTION": "Snbla Wallet gives your customers more than just rewards—it empowers them to save for their next big purchase, with your brand supporting them at every step.",
+    "BOOST_SALES_AND_CUSTOMER_ENGAGEMENT": {
+      "TITLE": "Boost Sales and Customer Engagement",
+      "DESCRIPTION": "Snbla Wallet helps drive higher customer spending, frequent purchases, and taps into new customer segments like Gen Z."
+    },
+    "UNLOCK_EXCLUSIVE_SAVINGS": {
+      "TITLE": "Unlock Exclusive Savings for Your Customers",
+      "DESCRIPTION": "With every deposit, customers grow a dedicated balance to spend at your store, making it easier for them to save and shop with you—again and again."
+    },
+    "SEAMLESS_INTEGRATION": {
+      "TITLE": "Seamless Integration, Ready When You Are",
+      "DESCRIPTION": "Snbla provides flexible, easy-to-deploy solutions, from low-code tools to full API integrations, making it simple to connect and start offering savings to your customers."
+    },
+    "FLEXIBLE_WAYS_TO_FUND": {
+      "TITLE": "Flexible Ways to Fund",
+      "DESCRIPTION": "We’ve made it easy for your customers to add funds to their Snbla wallet, offering options that fit their lifestyle.",
+      "POINTS": {
+        "RECURRING_DEPOSITS": {
+          "TITLE": "Recurring Deposits",
+          "DESCRIPTION": "Set it and forget it! Schedule automatic deposits on a weekly, bi-weekly, or monthly basis. Your savings grow effortlessly while you focus on other things."
+        },
+        "ONE_TIME_DEPOSITS": {
+          "TITLE": "One-time Deposits",
+          "DESCRIPTION": "Add money whenever it suits you, giving you complete flexibility to save at your own pace."
+        },
+        "ROUND_UP_DEPOSITS": {
+          "TITLE": "Round-ups Deposits",
+          "DESCRIPTION": "Automatically round up your everyday purchases to the nearest riyal and save the difference."
+        },
+        "CROWD_SAVINGS_DEPOSITS": {
+          "TITLE": "Crowd Savings Deposits",
+          "DESCRIPTION": "Let friends and family contribute directly to your wallet, helping you reach your savings goals faster."
+        }
+      }
+    },
+    "INCENTIVIZE_CUSTOMERS_TO_SAVE": {
+      "TITLE": "Incentivize Customers to Save",
+      "DESCRIPTION": "Boost loyalty and encourage spending by offering rewards for every deposit customers make toward their goals. These rewards grow with each contribution and can be redeemed exclusively at checkout, making saving even more rewarding."
+    }
+  },
+  "OUR_PARTNERS": {
+    "TITLE": "Save Now, Buy Later",
+    "DESCRIPTION": "A smarter way to save and get paid. Earn rewards instantly with every deposit you make.",
+    "CARDS": [
+      {
+        "TITLE": "Tailored to How You Save",
+        "DESCRIPTION": "Save safely for what matters most, whether it’s purchases or experiences—no loans, credit checks, or hidden costs."
+      },
+      {
+        "TITLE": "Earn More, Spend Less",
+        "DESCRIPTION": "With every deposit, our brand partners contribute, giving you rewards instantly—no waiting for interest."
+      },
+      {
+        "TITLE": "Flexible Savings, No Limits",
+        "DESCRIPTION": "Change your savings goal whenever you need to. Cancel or withdraw anytime, with no fees or penalties."
+      }
+    ]
+  },
+  "DASHBOARD": {
+    "HEADING": "Dashboard",
+    "CARDS": {
+      "TOTAL_USERS": "Total Users",
+      "TOTAL_TRANSACTIONS": "Number of Transactions",
+      "ACTIVE_WALLETS": "Number of Active Wallets",
+      "TOTAL_REFERRALS": "Total Referrals"
+    }
+  },
+  "WALLETS": {
+    "HEADING": "Wallets Listing",
+    "CARDS": [
+      {
+        "BUSINESS_NAME": "smartData Enterprises",
+        "BALANCE": "1000 SAR",
+        "CASHBACK_PERCENTAGE": "8% Cashback",
+        "PROGRESS": "11.20%",
+        "BUTTON_TEXT": "View Wallet",
+        "IMAGE_URL": "your_image_url_here"
+      }
+    ]
+  },
+  "TRANSACTIONS": {
+    "HEADING": "Financial Transactions",
+    "TABLE_HEADERS": {
+      "ORDER_ID": "Order ID",
+      "TRANSACTION_ID": "Transaction ID",
+      "BUSINESS_NAME": "Business Name",
+      "CONTACT_NAME": "Contact Name",
+      "EMAIL": "Email",
+      "AMOUNT": "Amount",
+      "STATUS": "Status",
+      "PAYMENT_DATE": "Payment Date"
+    }
+  },
+  "REFERRALS": {
+    "HEADING": "Referrals Program",
+    "CARD": {
+      "TITLE": "Share the Savings, Earn Together!",
+      "DESCRIPTION": "Invite your friends to start their savings journey with Snbla. For every friend who makes their first deposit, you'll get 25 SAR and they'll receive 50 SAR as a welcome bonus!",
+      "CTA_TEXT": "Copy your referral link below and start earning now!"
+    },
+    "FAQ_SECTION": {
+      "TITLE": "Share the Savings, Earn Together!",
+      "DESCRIPTION": "We know you have questions, and we have answers. Below you'll find responses to common inquiries about our referrals program.",
+      "QUESTIONS": [
+        "How do I qualify for the welcome bonus?",
+        "What is the limit for redeeming bonuses when setting a savings goal?",
+        "How long are my welcome bonuses and referral earnings valid?",
+        "How do referral earnings work?",
+        "When can I claim my welcome bonus and referral earnings?",
+        "Can I transfer or withdraw my bonuses and earnings?"
+      ]
+    }
+  },
+  "FOOTER": {
+    "EXPLORE": "EXPLORE",
+    "LEARN": "LEARN",
+    "LEGAL": "LEGAL",
+    "CAREERS": "Careers",
+    "HIRING": "We're hiring",
+    "NEWS_ROOM": "Newsroom",
+    "SAVERS_COMMUNITY": "Savers Community",
+    "NEWS_LETTER": "Newsletter",
+    "TERMS_OF_USE": "Terms of Use",
+    "PARTNER_LOGIN": "Partner Login",
+    "PRIVACY_POLICY": "Privacy Policy",
+    "ARTICLES": "Articles",
+    "ABOUT_US": "About Us",
+    "KNOWLEDGE_CENTER": "Knowledge Center",
+    "REWARDS_TERMS_AND_CONDITIONS": "Rewards Terms & Conditions"
+  }
+}

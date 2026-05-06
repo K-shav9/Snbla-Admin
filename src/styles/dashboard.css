@@ -1,0 +1,456 @@
+.sidebar {
+    background: #1e2939;
+    background: #fff;
+    box-shadow: 3px 0px 15px 0px rgba(0, 0, 0, 0.09);
+    width: 210px !important;
+    min-height: 100vh;
+    padding: 24px 15px;
+    position: fixed !important;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.sidebar .mainlogo {
+    margin-bottom: 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 73px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.sidebar img {
+    width: 130px;
+}
+
+.secondmenu button:hover {
+    background: transparent;
+    color: #000;
+}
+
+nav#sidebar a {
+    width: 100%;
+    display: flex;
+    padding: 10px 5px 10px 10px;
+    align-items: center;
+    transition: 0.2s all ease-in-out;
+}
+
+nav#sidebar a svg {
+    margin-right: 6px;
+    /* fill: #fff; */
+    width: 24px !important;
+    /* height: 24px !important; */
+    stroke: white;
+    stroke: #474df4;
+    stroke-width: 1.2px !important;
+}
+
+nav#sidebar a.active {
+    background-color: #33b396;
+    background-color: #474df4;
+    border-radius: 4px;
+
+}
+
+:where(.css-dev-only-do-not-override-161f05s).ant-btn-variant-link {
+    color: #4a55ef;
+}
+
+button.btn.textAuthHeading:hover {
+    background: transparent;
+}
+
+nav#sidebar a.active span {
+    color: #fff;
+    font-weight: 400;
+}
+
+nav#sidebar a.active svg {
+    stroke: #fff;
+}
+
+.sidebar .ps-sidebar-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    height: auto;
+}
+
+nav#sidebar {
+    width: 100%;
+}
+
+main.bg-yellow {
+    background: #f9fafc;
+}
+
+.sidebar .navigationMenu {
+    width: 100%;
+    padding-top: 70px;
+}
+
+.sidebar .heading {
+    color: #838383;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    padding: 0 15px;
+    margin: 0;
+    margin-bottom: 18px;
+}
+
+.sidebar nav a {
+    text-decoration: none;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.sidebar nav a svg {
+    width: 18px;
+    height: 18px;
+}
+
+.sidebar nav a span {
+    color: var(--white);
+    color: #474df4;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+
+
+}
+
+.mainheader {
+    padding: 25px 30px;
+}
+
+.mainheader .mainTitleofPage {
+    color: #000;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    /* 87.097% */
+
+}
+
+.profileicon {
+    width: 40px;
+    height: 40px;
+
+}
+
+button.avtarbutton,
+button.notificationbtn {
+    padding: 0px;
+    margin: 0px;
+}
+
+.profileicon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.notificationblock {
+    border-radius: 8px;
+    background: #FFFAF1;
+    width: 50px;
+    height: 50px;
+    padding: 12px 8px;
+    position: relative;
+}
+
+.badegIcon {
+    background-color: red;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    font-size: 8px;
+    color: white;
+    position: absolute;
+    right: 8px;
+    top: 11px;
+}
+
+.cardheads {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cardTitle {
+    color: #0F1D2D;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 30px */
+    letter-spacing: -0.4px;
+}
+
+.btn.blackoutlineBtn {}
+
+.accordianmenu .menuItems {
+    background-color: transparent;
+    border: 0px;
+    box-shadow: none;
+
+}
+
+.accordianmenu .menuItems {
+    min-height: 47px !important;
+    margin-bottom: 0px;
+    border: 0px;
+
+}
+
+.accordianmenu .menuItems::before {
+    display: none;
+}
+
+.accordianmenu .Mui-expanded {
+    margin: 0px !important;
+    border: 0px;
+    border-radius: 7px;
+    background: #ECECEC;
+    /* min-height: 47px !important; */
+}
+
+.accordianmenu .MuiAccordionSummary-content {
+    margin: 0px;
+}
+
+.accordianmenu .css-1f773le-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+    min-height: 47px;
+}
+
+.accordianmenu .MuiAccordionDetails-root {
+    padding: 0 34px 16px 34px;
+}
+
+.accordianmenu .MuiAccordionDetails-root .sideNavigation {
+    opacity: .5;
+
+}
+
+.accordianmenu .MuiAccordionDetails-root .sideNavigation.active {
+    opacity: 1;
+
+}
+
+li.notificationdeatils {
+    overflow: hidden;
+    color: #6E6E71;
+    text-overflow: ellipsis;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+a.dropdownmenused {
+    overflow: hidden;
+    color: #6E6E71;
+    text-overflow: ellipsis;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+button.notificationbtn {
+    min-width: 50px;
+}
+
+button.avtarbutton {
+    min-width: 40px;
+    margin-left: 15px;
+}
+
+.btnsClosedSidebar {
+    display: none;
+}
+
+.mainBody {
+    background-color: #f5f6ff29;
+    flex-grow: 1;
+    margin-left: 210px;
+    max-width: calc(100% - 210px);
+}
+
+.main {
+    display: flex;
+    width: 100%;
+
+}
+
+.contentBody {
+    padding: 0 32px;
+    margin-bottom: 85px;
+}
+
+.desktopView {
+    display: block;
+}
+
+.mobileView {
+    display: none !important;
+}
+
+.poweredby {
+    color: #807A7A;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 23px;
+    /* 164.286% */
+}
+
+.brandinglogo img {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.bodycardheading {
+    display: flex;
+    align-items: center;
+}
+
+.withCards .col-lg-3.col-md-6.col-6 {
+    margin-bottom: 15px;
+}
+
+
+.sidebar::-webkit-scrollbar {
+    width: 2px;
+    height: 6px;
+}
+
+/* Track */
+.sidebar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+.sidebar::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 10px;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.info-icon {
+    /* position: absolute; */
+    top: 10px;
+    right: 10px;
+    text-align: right;
+    /* width: 20px; */
+    height: 20px;
+}
+
+.info-icon img {
+    width: 100%;
+    height: 100%;
+    color: #000;
+}
+
+.business-logo {
+    height: 48px;
+    width: 270px;
+    border-radius: 8px;
+}
+
+.business-lext {
+    text-align: center;
+    color: #838383;
+}
+
+.privateWrapper .cardWhite {
+    background: #1D2939;
+}
+
+.privateWrapper .cardWhite .form_wrapper_col {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px 20px 20px;
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+.whitelogos {
+    width: 100%;
+    text-align: center;
+    max-width: 100%;
+}
+
+.whitelogos img {
+    width: auto !important;
+    height: 30px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.form_wrapper_col .authforms {
+    padding: 40px 0 0 !important;
+}
+.authHeadings {
+    margin-bottom: 20px;
+}
+
+.ant-form-item.formControlDesign.passwordinputs input {
+    box-shadow: none;
+    padding: 8px 0 !important;
+}
+
+:where(.css-dev-only-do-not-override-161f05s).ant-form-item .ant-form-item-label>label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    display: none;
+}
+
+.ant-form-item .ant-form-item-label>label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::after {
+    visibility: visible;
+}
+
+.textAuthHeading,
+.textAuthHeading span {
+    font-size: 30px;
+}
+
+@media (max-width:667px) {
+    .privateWrapper .cardWhite .form_wrapper_col {
+        max-width: 90%;
+        width: 100%;
+    }
+
+    .textAuthHeading,
+    .textAuthHeading span {
+        font-size: 20px;
+    }
+
+    .form_wrapper_col .authforms .ant-row {
+        display: block;
+    }
+
+    .form_wrapper_col .authforms .col-12 {
+        padding: 0;
+    }
+}

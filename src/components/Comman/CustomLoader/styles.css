@@ -1,0 +1,30 @@
+/* styles.css */
+.spinner-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Dimmed background */
+    z-index: 9999;
+  }
+  
+  .spinner-logo {
+    animation: spin 2s linear infinite; /* Spin animation */
+    width: 100px; /* Adjust the size of your logo */
+    height: 100px; /* Adjust the size of your logo */
+  }
+  
+  /* Keyframes for spinning animation */
+  /* @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } */
+  

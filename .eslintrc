@@ -1,0 +1,26 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:tailwindcss/recommended"   // Add Tailwind CSS plugin
+    ],
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
+    "plugins": [
+      "tailwindcss"   // Add Tailwind CSS plugin
+    ],
+    "rules": {
+      // TypeScript rules
+      "no-unsafe-optional-chaining": "off",
+      "@typescript-eslint/no-explicit-any": "off", // Emit a warning for `any` usage
+      // Optional: Custom rules for tailwindcss
+      "tailwindcss/classnames-order": "off", // Rule for class order, optional
+      "tailwindcss/no-custom-classname": "off" // Optional rule for disabling custom classnames
+    }
+  }
+  

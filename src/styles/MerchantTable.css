@@ -1,0 +1,46 @@
+/* MerchantTable.css */
+.merchant-table-container {
+  background-color: #f7f7f7; /* Light background color */
+  padding: 20px;
+  border-radius: 8px; /* Optional rounded corners */
+  overflow: hidden; /* Prevent overflow outside container */
+}
+
+.ant-table {
+  background-color: #ffffff; /* Table background color */
+  overflow-x: auto; /* Allow horizontal scroll if necessary */
+}
+
+.ant-table-thead > tr > th {
+  background-color: #e6f7ff; /* Header background color */
+}
+
+.ant-table-tbody > tr > td {
+  background-color: #ffffff; /* Body row background color */
+}
+
+.ant-table-pagination {
+  text-align: right; /* Align pagination to the right */
+  padding-top: 10px;
+}
+
+.custom_table_td {
+  max-width: 190px;
+}
+
+.ant-table-wrapper .ant-table-thead > tr > th,
+.ant-table-wrapper .ant-table-thead > tr > td {
+  background: #f0f0f0e0 !important;
+  color: #333 !important;
+}
+
+.justify-content-end {
+  justify-content: end !important;
+}
+
+.form-wrapper {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  /* box-shadow: 0px 0px 6px rgb(0 0 0 / 7%); */
+}

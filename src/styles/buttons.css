@@ -1,0 +1,12 @@
+.btn{
+    border:0px;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btn-icons{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border:1px solid var(--primary)
+}

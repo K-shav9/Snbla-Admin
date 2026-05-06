@@ -1,0 +1,68 @@
+.user-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.user-menu-button {
+    background-color: transparent; /* Remove button background */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer */
+    display: flex; /* Use flexbox */
+    /* align-items: center; */
+}
+
+.user-info {
+    display: flex; /* Use flexbox for the user info */
+    flex-direction: row; /* Stack items vertically */
+    margin-left: 8px; /* Space between avatar and text */
+}
+
+.user-details {
+    display: flex; /* Use flexbox for the details */
+    flex-direction: column; /* Stack name and role vertically */
+    margin-top: 5px;
+    padding-left: 7px;
+}
+
+.user-name {
+    /* padding: 0px 0px 0px 5px;  */
+}
+
+.user-role {
+    color: gray; /* Color for the role */
+    font-size: 12px; /* Smaller font size for the role */
+    /* padding: 0px 0px 0px 5px; */
+}
+
+.dropdown-menu {
+    display: none; /* Hide dropdown by default */
+    position: absolute;
+    background-color: white; /* Background color of dropdown */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* Add shadow */
+    z-index: 1; /* Ensure dropdown is above other elements */
+    margin-top: 8px; /* Space between button and dropdown */
+}
+
+.user-menu:hover .dropdown-menu {
+    display: block; /* Show dropdown on hover */
+}
+
+.dropdown-menu ul {
+    list-style-type: none; /* Remove list styles */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.dropdown-menu li {
+    padding: 8px 16px; /* Padding for each menu item */
+}
+
+.dropdown-menu li a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Color of the links */
+    display: block; /* Make the entire area clickable */
+}
+
+.dropdown-menu li:hover {
+    background-color: #f0f0f0; /* Highlight on hover */
+}

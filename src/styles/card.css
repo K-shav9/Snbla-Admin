@@ -1,0 +1,56 @@
+.dashboardCards {
+    display: block;
+    width: 100%;
+    padding: 8px 8px;
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px rgba(255, 142, 41, 0.10), 0px 0px 4px 0px rgba(255, 142, 41, 0.10);
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid;
+    border-color: transparent;
+    margin-top: 10px;
+    height: 100%;
+}
+
+.dashboardCards:hover,
+.dashboardCards.active {
+    border-color: var(--primary)
+}
+
+.dashboardCards span {
+    color: var(--secondary);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.dashboardCards .navigationIcons {
+    max-width: 100px;
+    margin: 5px auto 10px auto;
+}
+
+.dashboardCards .navigationIcons img {
+    width: 100%;
+    margin: auto
+}
+
+.bodycard {
+    margin-top: 32px;
+    padding: 20px 24px;
+    /* background-color: var(--white); */
+    border-radius: 12px;
+    /* box-shadow: 0px 0px 4px 0px rgba(255, 142, 41, 0.10), 0px 0px 4px 0px rgba(255, 142, 41, 0.10); */
+    margin-bottom: 75px;
+}
+.bodycardheading{
+    color: var(--secondary);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        letter-spacing: -0.4px;
+        margin-bottom: 24px;
+}

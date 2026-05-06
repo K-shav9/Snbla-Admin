@@ -1,0 +1,33 @@
+.ant-table-wrapper .ant-table{
+    color: #6E6E71;
+}
+.ant-table-wrapper .ant-table-thead >tr>th,.ant-table-wrapper .ant-table-thead >tr>td{
+    background: var(--primary);
+    color:var(--white);
+    font-weight: 600;
+}
+.ant-table-wrapper .ant-table-cell, .ant-table-wrapper .ant-table-thead>tr>th, .ant-table-wrapper .ant-table-tbody>tr>th, .ant-table-wrapper .ant-table-tbody>tr>td, .ant-table-wrapper tfoot>tr>th, .ant-table-wrapper tfoot>tr>td{
+    padding: 12px 16px;
+}
+.ant-table-wrapper .ant-table-thead th.ant-table-column-has-sorters:hover{
+    background-color: var(--primarydark);
+}
+.ant-table-wrapper .ant-table-column-sorter-inner{
+    color: var(--white);
+}
+
+.ant-table-wrapper .ant-table-column-sorter-up.active, .ant-table-wrapper .ant-table-column-sorter-down.active{
+    color: var( --primarylight);
+}
+
+.ant-pagination .ant-pagination-item-active a{
+    color: var(--primary)
+}
+
+.ant-pagination .ant-pagination-item-active,.ant-pagination .ant-pagination-item-active:hover{
+    border-color: var(--primary)
+
+}
+.responsivetable {
+    overflow: auto;
+}
